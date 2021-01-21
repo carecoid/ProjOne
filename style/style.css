@@ -1,0 +1,25 @@
+body{
+    height: 1000px;
+}
+
+.header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+    text-align: center;
+    overflow: hidden;
+}
+
+.table th{
+    background: goldenrod;
+    border: gray solid 1px;
+    padding: 5px;
+    margin: 0px;
+}
