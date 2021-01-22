@@ -1,3 +1,10 @@
+/*PALETA DE CORES:
+#F38181
+#FCE38A
+#EAFFD0
+#95E1D3
+*/
+
 *{
     margin: 0;
 }
@@ -6,11 +13,16 @@ body{
     /* height: 1000px; */
 }
 
+a:link, :visited{
+    text-decoration: none;
+    color: inherit;
+}
+
 .containerTopo{
     width: 95%;
     margin: auto;
     overflow: hidden;
-    background: #6d9773;
+    background: #F38181;
 }
 
 .containerTopo span{
@@ -55,14 +67,15 @@ body{
 }
 
 .table th, td{
-    background: #ffba00;
-    border: gray solid 1px;
+    width: 100%;
+    background: #FCE38A;
+    border: lightgrey solid 1px;
     padding: 5px;
     margin: 0px;
 }
 
 .table th{
-    background: #b46617;
+    background: #EAFFD0;
 }
 
 .col1{
