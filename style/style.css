@@ -1,15 +1,52 @@
+*{
+    margin: 0;
+}
+
 body{
-    height: 1000px;
+    /* height: 1000px; */
+}
+
+.containerTopo{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    background: #6d9773;
+}
+
+.containerTopo span{
+    padding: 0 8px 0 8px;
+    font-size: 20px;
+
+}
+
+.topo{
+    padding: 5px;
+    width: 30%;
+}
+
+.right{
+    float: right;
+    text-align: center;
+}
+
+.left{
+    float: left;
+    text-align: center;
 }
 
 .header{
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    overflow: hidden;
+}
+
+.tableContainer{
+    display: flex;
 }
 
 .table{
-    width: 80%;
+    width: 95%;
     border-collapse: collapse;
     margin: auto;
     table-layout: fixed;
@@ -17,9 +54,25 @@ body{
     overflow: hidden;
 }
 
-.table th{
-    background: goldenrod;
+.table th, td{
+    background: #ffba00;
     border: gray solid 1px;
     padding: 5px;
     margin: 0px;
+}
+
+.table th{
+    background: #b46617;
+}
+
+.col1{
+    width: calc(100%/7);
+}
+
+.col2{
+    width: calc(100%/7);
+}
+
+.col3{
+    width: calc(100%*5/7);
 }
