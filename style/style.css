@@ -9,8 +9,33 @@
     margin: 0;
 }
 
-body{
-    /* height: 1000px; */
+header, h1{
+    text-align: center;
+}
+
+.containerMonthBtn{
+    width: 90%;
+    margin: 5% auto 0 auto;
+}
+
+.monthRow{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.monthBtn{
+    background: #F38181;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.marginRight{
+    margin-right: 5%;
 }
 
 a:link, :visited{
@@ -88,4 +113,11 @@ a:link, :visited{
 
 .col3{
     width: calc(100%*5/7);
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
 }
